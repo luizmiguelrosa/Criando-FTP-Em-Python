@@ -13,8 +13,6 @@ Muitas pessoas e empresas usam o FTP para transferência de arquivos, mas acabam
 pip install pyftpdlib
 ```
 
-***
-
 ## Importando
 ```python
 from pyftpdlib.authorizers import DummyAuthorizer
@@ -22,7 +20,6 @@ from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
 ```
 
-***
 
 ## Criando o gerenciador de conexões
 ```python
@@ -30,15 +27,12 @@ authorizer = DummyAuthorizer()
 authorizer.add_user("masso", "senha123", r"D:\Masso13\Arquivos\Python\Github\Criando-FTP-Em-Python", "elradrmw")
 ```
 
-***
 
 ## Criando o manipulador
 ```python
 handler = FTPHandler
 handler.authorizer = authorizer
 ```
-
-***
 
 ## Criando o server
 ```python
