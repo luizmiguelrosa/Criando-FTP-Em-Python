@@ -6,6 +6,7 @@ Muitas pessoas e empresas usam o FTP para transferência de arquivos, mas acabam
 * [PyPi](http://pyftpdlib.readthedocs.io/)
 * [Documentação](http://pyftpdlib.readthedocs.io/)
 * [Permissões](https://pyftpdlib.readthedocs.io/en/latest/api.html#pyftpdlib.authorizers.DummyAuthorizer)
+* [FTP Avançado](https://github.com/Masso13/Criando-FTP-Em-Python-2)
 
 
 ## Instalando a biblioteca
